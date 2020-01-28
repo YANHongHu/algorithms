@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2f310f4-e560-483e-9bd9-bbcc6ef19a42" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Dominoes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LengthOfLongestSubstring.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MoveNums.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dominoes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dominoes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FourSumCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FourSumCount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +31,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -68,6 +69,7 @@
       <workItem from="1577444676598" duration="441000" />
       <workItem from="1577446112605" duration="136000" />
       <workItem from="1577446354920" duration="1099000" />
+      <workItem from="1580220852999" duration="845000" />
     </task>
     <servers />
   </component>

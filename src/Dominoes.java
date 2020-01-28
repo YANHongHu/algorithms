@@ -5,6 +5,6 @@ public class Dominoes {
 
 
     public String pushDominoes(String dominoes) {
-
+        return null;
     }
 }
