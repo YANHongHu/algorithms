@@ -37,4 +37,19 @@ public class MoveNums {
             nums[0] = a;
         }
     }
+
+    public static int removeElement(int[] nums, int val){
+        if (nums == null || nums.length == 0)
+            return 0;
+        int j = 0;
+        // 用for循环来遍历，如果当前元素与 val相同
+        // 只要nums[i] != val 就复制 nums[j] = nums[i]同时递增两个索引
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] != val) {
+                nums[j] = nums[i];
+                j++;
+            }
+        }
+        return j;
+    }
 }
