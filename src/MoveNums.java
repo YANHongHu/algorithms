@@ -4,15 +4,14 @@ public class MoveNums {
     public static void main(String[] args) {
 //        int x=20,y=5;
 //        System.out.println(x+y+""+(x+y)+y);
-        Scanner sc = new Scanner(System.in);
+        //Scanner sc = new Scanner(System.in);
         //String str = sc.nextLine();
         //System.out.println(toLowerCase(str));
-        int[] nums = {1,34,3,5,4};
-        int k = sc.nextInt();
-        rotate(nums,k);
-        for (int i : nums) {
-            System.out.println(i);
-        }
+        //int[] nums = {1,2,3,6,7};
+        // int k = sc.nextInt();
+        //rotate(nums,k);
+        //System.out.println(searchInsert(nums,k));
+        circleNumber();
     }
 
     public static String toLowerCase(String str){
@@ -51,5 +50,47 @@ public class MoveNums {
             }
         }
         return j;
+    }
+
+    public static void circleNumber() {
+        int i = 7;
+        do {
+            System.out.println(--i);
+            --i;
+        } while (i != 0);
+        System.out.println(i);
+    }
+
+
+    public static int searchInsert(int[] nums, int target){
+        if (nums == null || nums.length == 0)
+            return 0;
+        int j = 0;
+        int count = 0;
+        for(int i = 0;i < nums.length;i++) {
+            if (nums[i] == target) {
+                count = i ;
+                j++;
+            }
+        }
+        if(j == 0) {
+            if(nums[0]<nums[1]){
+                for(int i = 0;i < nums.length;i++) {
+                    if (nums[i] > target) {
+                        count = i;
+                        break;
+                    }
+                }
+            }
+            else {
+                for(int i = 0;i < nums.length;i++) {
+                    if(nums[i] < target) {
+                        count = i;
+                        break;
+                    }
+                }
+            }
+        }
+        return count;
     }
 }

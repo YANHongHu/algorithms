@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2f310f4-e560-483e-9bd9-bbcc6ef19a42" name="Default Changelist" comment="" />
+    <list default="true" id="a2f310f4-e560-483e-9bd9-bbcc6ef19a42" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/algorithm/canConstruct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MoveNums.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MoveNums.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/Palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThreeSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/deleteArrayNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deleteArrayNum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/deleteDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deleteDuplicates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/singleNonDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/singleNonDuplicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testAll.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,6 +45,15 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration name="MoveNums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="MoveNums" />
+      <module name="algorithms" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -42,6 +61,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MoveNums" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -65,11 +89,39 @@
       <workItem from="1577444676598" duration="441000" />
       <workItem from="1577446112605" duration="136000" />
       <workItem from="1577446354920" duration="1099000" />
-      <workItem from="1580220852999" duration="3519000" />
+      <workItem from="1580220852999" duration="8887000" />
+      <workItem from="1580975295206" duration="291000" />
+      <workItem from="1580982961774" duration="1013000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="721" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580401657373">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="721" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1580401657373" />
+    <state width="976" height="318" key="GridCell.Tab.0.bottom" timestamp="1580645638882">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="976" height="318" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1580645638882" />
+    <state width="976" height="318" key="GridCell.Tab.0.center" timestamp="1580645638881">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="976" height="318" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1580645638881" />
+    <state width="976" height="318" key="GridCell.Tab.0.left" timestamp="1580645638880">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="976" height="318" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1580645638880" />
+    <state width="976" height="318" key="GridCell.Tab.0.right" timestamp="1580645638882">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="976" height="318" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1580645638882" />
+    <state x="1268" y="503" key="extract.method.dialog" timestamp="1580402273593">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="1268" y="503" key="extract.method.dialog/0.0.1792.1120@0.0.1792.1120" timestamp="1580402273593" />
   </component>
 </project>
