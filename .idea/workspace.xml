@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2f310f4-e560-483e-9bd9-bbcc6ef19a42" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/algorithm/canConstruct.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MoveNums.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MoveNums.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/Palindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThreeSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deleteArrayNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deleteArrayNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deleteDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deleteDuplicates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/singleNonDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/singleNonDuplicate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testAll.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +83,9 @@
       <workItem from="1577446354920" duration="1099000" />
       <workItem from="1580220852999" duration="8887000" />
       <workItem from="1580975295206" duration="291000" />
-      <workItem from="1580982961774" duration="1013000" />
+      <workItem from="1580982961774" duration="1122000" />
+      <workItem from="1581166272402" duration="492000" />
+      <workItem from="1581557976742" duration="416000" />
     </task>
     <servers />
   </component>
