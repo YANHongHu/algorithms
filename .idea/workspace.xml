@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2f310f4-e560-483e-9bd9-bbcc6ef19a42" name="Default Changelist" comment="大小写字母转换">
-      <change afterPath="$PROJECT_DIR$/src/SimpleCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TenToEightNumber.java" afterDir="false" />
+    <list default="true" id="a2f310f4-e560-483e-9bd9-bbcc6ef19a42" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/AddTwoNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/twoSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SimpleCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SimpleCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +40,16 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TenToEightNumber">
+  <component name="RunManager" selected="Application.AddTwoNumbers">
+    <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="AddTwoNumbers" />
+      <module name="algorithms" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MoveNums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -74,8 +84,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="twoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="twoSum" />
+      <module name="algorithms" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AddTwoNumbers" />
+        <item itemvalue="Application.twoSum" />
         <item itemvalue="Application.TenToEightNumber" />
         <item itemvalue="Application.ToggleCase" />
         <item itemvalue="Application.MoveNums" />
@@ -112,7 +133,12 @@
       <workItem from="1583383658198" duration="839000" />
       <workItem from="1583385255722" duration="237000" />
       <workItem from="1583385667243" duration="9969000" />
-      <workItem from="1584527014386" duration="7683000" />
+      <workItem from="1584527014386" duration="9073000" />
+      <workItem from="1585118750810" duration="107000" />
+      <workItem from="1585118887258" duration="598000" />
+      <workItem from="1585497162932" duration="189000" />
+      <workItem from="1585558859888" duration="12000" />
+      <workItem from="1599459115949" duration="15197000" />
     </task>
     <task id="LOCAL-00001" summary="大小写字母转换">
       <created>1583387984353</created>
@@ -121,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583387984353</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="简单的计算器">
+      <created>1584614845090</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584614845090</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,68 +162,33 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="大小写字母转换" />
-    <option name="LAST_COMMIT_MESSAGE" value="大小写字母转换" />
+    <MESSAGE value="简单的计算器" />
+    <option name="LAST_COMMIT_MESSAGE" value="简单的计算器" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="495" y="225" key="#Deployment" timestamp="1583388095231">
+    <state x="360" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599461471256">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="495" y="225" key="#Deployment/0.0.1792.1120@0.0.1792.1120" timestamp="1583388095231" />
-    <state x="721" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583387817264">
+    <state x="360" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1599461471256" />
+    <state x="633" y="351" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1599461469245">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="721" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1583387817264" />
-    <state x="479" y="162" key="CommitChangelistDialog2" timestamp="1583388116316">
+    <state x="633" y="351" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1599461469245" />
+    <state width="1750" height="318" key="GridCell.Tab.0.bottom" timestamp="1599570776448">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="479" y="162" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1583388116316" />
-    <state width="1750" height="391" key="GridCell.Tab.0.bottom" timestamp="1583405145773">
+    <state width="1750" height="318" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1599570776448" />
+    <state width="1750" height="318" key="GridCell.Tab.0.center" timestamp="1599570776447">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="391" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1583405145773" />
-    <state width="1750" height="391" key="GridCell.Tab.0.center" timestamp="1583405145772">
+    <state width="1750" height="318" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1599570776447" />
+    <state width="1750" height="318" key="GridCell.Tab.0.left" timestamp="1599570776446">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="391" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1583405145772" />
-    <state width="1750" height="391" key="GridCell.Tab.0.left" timestamp="1583405145772">
+    <state width="1750" height="318" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1599570776446" />
+    <state width="1750" height="318" key="GridCell.Tab.0.right" timestamp="1599570776448">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="391" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1583405145772" />
-    <state width="1750" height="391" key="GridCell.Tab.0.right" timestamp="1583405145773">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state width="1750" height="391" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1583405145773" />
-    <state width="1750" height="391" key="GridCell.Tab.1.bottom" timestamp="1583405145774">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state width="1750" height="391" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1583405145774" />
-    <state width="1750" height="391" key="GridCell.Tab.1.center" timestamp="1583405145774">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state width="1750" height="391" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1583405145774" />
-    <state width="1750" height="391" key="GridCell.Tab.1.left" timestamp="1583405145773">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state width="1750" height="391" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1583405145773" />
-    <state width="1750" height="391" key="GridCell.Tab.1.right" timestamp="1583405145774">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state width="1750" height="391" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1583405145774" />
-    <state x="397" y="199" key="SettingsEditor" timestamp="1583387882884">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1583387882884" />
-    <state x="496" y="300" key="Vcs.Push.Dialog.v2" timestamp="1583388302639">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="496" y="300" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1583388302639" />
-    <state x="1268" y="503" key="extract.method.dialog" timestamp="1580402273593">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="1268" y="503" key="extract.method.dialog/0.0.1792.1120@0.0.1792.1120" timestamp="1580402273593" />
-    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1583401756206">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1583401756206" />
+    <state width="1750" height="318" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1599570776448" />
   </component>
 </project>

@@ -1,7 +1,7 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Scanner;
+
 
 public class SimpleCalculator {
     // 存储当前进制
@@ -94,7 +94,6 @@ public class SimpleCalculator {
                 res /= calNum;
                 break;
         }
-
         calType = "";
     }
 }
