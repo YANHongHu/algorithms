@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2f310f4-e560-483e-9bd9-bbcc6ef19a42" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AddTwoNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/twoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LengthOfLongestSubstring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SimpleCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SimpleCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +38,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AddTwoNumbers">
+  <component name="RunManager" selected="Application.LengthOfLongestSubstring">
     <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -50,10 +48,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoveNums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="LengthOfLongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="MoveNums" />
+      <option name="MAIN_CLASS_NAME" value="LengthOfLongestSubstring" />
       <module name="algorithms" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,11 +93,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LengthOfLongestSubstring" />
         <item itemvalue="Application.AddTwoNumbers" />
         <item itemvalue="Application.twoSum" />
         <item itemvalue="Application.TenToEightNumber" />
         <item itemvalue="Application.ToggleCase" />
-        <item itemvalue="Application.MoveNums" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +136,7 @@
       <workItem from="1585118887258" duration="598000" />
       <workItem from="1585497162932" duration="189000" />
       <workItem from="1585558859888" duration="12000" />
-      <workItem from="1599459115949" duration="15197000" />
+      <workItem from="1599459115949" duration="23977000" />
     </task>
     <task id="LOCAL-00001" summary="大小写字母转换">
       <created>1583387984353</created>
@@ -174,21 +172,37 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="633" y="351" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1599461469245" />
-    <state width="1750" height="318" key="GridCell.Tab.0.bottom" timestamp="1599570776448">
+    <state width="1750" height="391" key="GridCell.Tab.0.bottom" timestamp="1599631718849">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1599570776448" />
-    <state width="1750" height="318" key="GridCell.Tab.0.center" timestamp="1599570776447">
+    <state width="1750" height="391" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1599631718849" />
+    <state width="1750" height="391" key="GridCell.Tab.0.center" timestamp="1599631718848">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1599570776447" />
-    <state width="1750" height="318" key="GridCell.Tab.0.left" timestamp="1599570776446">
+    <state width="1750" height="391" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1599631718848" />
+    <state width="1750" height="391" key="GridCell.Tab.0.left" timestamp="1599631718847">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1599570776446" />
-    <state width="1750" height="318" key="GridCell.Tab.0.right" timestamp="1599570776448">
+    <state width="1750" height="391" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1599631718847" />
+    <state width="1750" height="391" key="GridCell.Tab.0.right" timestamp="1599631718848">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1599570776448" />
+    <state width="1750" height="391" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1599631718848" />
+    <state width="1750" height="391" key="GridCell.Tab.1.bottom" timestamp="1599631718853">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="391" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1599631718853" />
+    <state width="1750" height="391" key="GridCell.Tab.1.center" timestamp="1599631718852">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="391" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1599631718852" />
+    <state width="1750" height="391" key="GridCell.Tab.1.left" timestamp="1599631718851">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="391" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1599631718851" />
+    <state width="1750" height="391" key="GridCell.Tab.1.right" timestamp="1599631718852">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="391" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1599631718852" />
   </component>
 </project>
