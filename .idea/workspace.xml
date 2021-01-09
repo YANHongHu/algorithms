@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2f310f4-e560-483e-9bd9-bbcc6ef19a42" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LengthOfLongestSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FindMedianSortedArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/LengthOfLongestSubstring.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/LengthOfLongestSubstring.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AddTwoNumbers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +32,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -38,11 +48,29 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LengthOfLongestSubstring">
+  <component name="RunManager" selected="Application.Calculator">
     <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="AddTwoNumbers" />
+      <module name="algorithms" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Calculator" />
+      <module name="algorithms" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindMedianSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="FindMedianSortedArrays" />
       <module name="algorithms" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -57,24 +85,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TenToEightNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="11" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="TenToEightNumber" />
-      <module name="algorithms" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ToggleCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="11" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ToggleCase" />
-      <module name="algorithms" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -82,10 +92,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="twoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="twoSum" />
+      <option name="MAIN_CLASS_NAME" value="test" />
       <module name="algorithms" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -93,11 +103,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Calculator" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.FindMedianSortedArrays" />
         <item itemvalue="Application.LengthOfLongestSubstring" />
         <item itemvalue="Application.AddTwoNumbers" />
-        <item itemvalue="Application.twoSum" />
-        <item itemvalue="Application.TenToEightNumber" />
-        <item itemvalue="Application.ToggleCase" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +146,13 @@
       <workItem from="1585118887258" duration="598000" />
       <workItem from="1585497162932" duration="189000" />
       <workItem from="1585558859888" duration="12000" />
-      <workItem from="1599459115949" duration="23977000" />
+      <workItem from="1599459115949" duration="24239000" />
+      <workItem from="1599737561927" duration="25281000" />
+      <workItem from="1602658179042" duration="12243000" />
+      <workItem from="1602753675993" duration="508000" />
+      <workItem from="1604127055007" duration="114000" />
+      <workItem from="1605336454507" duration="163000" />
+      <workItem from="1605412428906" duration="62000" />
     </task>
     <task id="LOCAL-00001" summary="大小写字母转换">
       <created>1583387984353</created>
@@ -172,37 +188,79 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="633" y="351" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1599461469245" />
-    <state width="1750" height="391" key="GridCell.Tab.0.bottom" timestamp="1599631718849">
+    <state x="699" y="466" key="Github.CreateGistDialog" timestamp="1600226600225">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="391" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1599631718849" />
-    <state width="1750" height="391" key="GridCell.Tab.0.center" timestamp="1599631718848">
+    <state x="699" y="466" key="Github.CreateGistDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1600226600225" />
+    <state width="1750" height="391" key="GridCell.Tab.0.bottom" timestamp="1602691919561">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="391" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1599631718848" />
-    <state width="1750" height="391" key="GridCell.Tab.0.left" timestamp="1599631718847">
+    <state width="1750" height="391" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1602691919561" />
+    <state width="1750" height="391" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1600344823748" />
+    <state width="1750" height="391" key="GridCell.Tab.0.center" timestamp="1602691919559">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="391" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1599631718847" />
-    <state width="1750" height="391" key="GridCell.Tab.0.right" timestamp="1599631718848">
+    <state width="1750" height="391" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1602691919559" />
+    <state width="1750" height="391" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1600344823748" />
+    <state width="1750" height="391" key="GridCell.Tab.0.left" timestamp="1602691919556">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="391" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1599631718848" />
-    <state width="1750" height="391" key="GridCell.Tab.1.bottom" timestamp="1599631718853">
+    <state width="1750" height="391" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1602691919556" />
+    <state width="1750" height="391" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1600344823747" />
+    <state width="1750" height="391" key="GridCell.Tab.0.right" timestamp="1602691919560">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="391" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1599631718853" />
-    <state width="1750" height="391" key="GridCell.Tab.1.center" timestamp="1599631718852">
+    <state width="1750" height="391" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1602691919560" />
+    <state width="1750" height="391" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1600344823748" />
+    <state width="1750" height="391" key="GridCell.Tab.1.bottom" timestamp="1602691919564">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="391" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1599631718852" />
-    <state width="1750" height="391" key="GridCell.Tab.1.left" timestamp="1599631718851">
+    <state width="1750" height="391" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1602691919564" />
+    <state width="1750" height="391" key="GridCell.Tab.1.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1600344823749" />
+    <state width="1750" height="391" key="GridCell.Tab.1.center" timestamp="1602691919563">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="391" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1599631718851" />
-    <state width="1750" height="391" key="GridCell.Tab.1.right" timestamp="1599631718852">
+    <state width="1750" height="391" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1602691919563" />
+    <state width="1750" height="391" key="GridCell.Tab.1.center/0.23.1792.1097@0.23.1792.1097" timestamp="1600344823749" />
+    <state width="1750" height="391" key="GridCell.Tab.1.left" timestamp="1602691919561">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="391" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1599631718852" />
+    <state width="1750" height="391" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1602691919561" />
+    <state width="1750" height="391" key="GridCell.Tab.1.left/0.23.1792.1097@0.23.1792.1097" timestamp="1600344823749" />
+    <state width="1750" height="391" key="GridCell.Tab.1.right" timestamp="1602691919563">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="391" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1602691919563" />
+    <state width="1750" height="391" key="GridCell.Tab.1.right/0.23.1792.1097@0.23.1792.1097" timestamp="1600344823749" />
+    <state x="600" y="461" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1602691595709">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="600" y="461" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1792.1120@0.0.1792.1120" timestamp="1602691595709" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/FindMedianSortedArrays.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Calculator.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Calculator.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Calculator.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

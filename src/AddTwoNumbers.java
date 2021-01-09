@@ -54,7 +54,7 @@ public class AddTwoNumbers {
                 p = p.next;
             if(q!=null)
                 q = q.next;
-            // 如何当前两个链表的结点不同时为空，就为新链表创建一个新的结点，并将其指向移后一位
+            // 如果当前两个链表的结点不同时为空，就为新链表创建一个新的结点，并将其指向移后一位
             if(q!=null||p!=null){
                 cur.next = new ListNode(0);
                 cur = cur.next;
