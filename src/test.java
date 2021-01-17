@@ -1,9 +1,15 @@
 public class test {
     public static void main(String[] args) {
-        int a = 1024;
-        double b = 0x10;
-        int x = Integer.parseInt("A");
-        System.out.println(b+=a);
-        System.out.println(x);
+        for(int i=3;i<9;i++){
+            for (int j=i;j<=9;j++){
+                if(i==j){
+                    while (--i>=0&&++j<=9&&i<j){
+                        System.out.println(i);
+                        System.out.println(j);
+                    }
+                }
+            }
+        }
+
     }
 }

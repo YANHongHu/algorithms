@@ -73,12 +73,14 @@ public class LengthOfLongestSubstring {
         int rk = -1, ans = 0;
         for (int i = 0; i < n; ++i) {
             if (i != 0) {
-                // 左指针向右移动一格，移除一个字符
+                // 左指针向右移动一格，移除第一个字符
                 occ.remove(s.charAt(i - 1));
             }
+            // 判断右指针有没有超过字符串的长度，并且集合里是否包含当前指向的字符
             while (rk + 1 < n && !occ.contains(s.charAt(rk + 1))) {
-                // 不断地移动右指针
+                // 只要没有超过，并且不包含就把新字符放进集合里
                 occ.add(s.charAt(rk + 1));
+                // 不断地移动右指针
                 ++rk;
             }
             // 第 i 到 rk 个字符是一个极长的无重复字符子串
