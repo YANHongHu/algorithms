@@ -30,6 +30,10 @@ public class LongestCallbackSubstring {
      * @return
      */
     public static String find_callback(String str){
+        // 边界值处理
+        if (str == null || str.length() < 1) {
+            return "";
+        }
         // 获取输入字符串的长度
         int len = str.length();
         // 初始化一个布尔类型的二维数组，默认值为false
