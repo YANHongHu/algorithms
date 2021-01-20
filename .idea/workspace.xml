@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2f310f4-e560-483e-9bd9-bbcc6ef19a42" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/UniquePaths.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ClimbStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClimbStairs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,16 +47,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ClimbStairs">
-    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="11" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Calculator" />
-      <module name="algorithms" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.UniquePaths">
     <configuration name="ClimbStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -79,6 +70,15 @@
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="LongestCallbackSubstring" />
+      <module name="algorithms" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UniquePaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="UniquePaths" />
       <module name="algorithms" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -113,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UniquePaths" />
         <item itemvalue="Application.ClimbStairs" />
         <item itemvalue="Application.LetterStamper" />
         <item itemvalue="Application.LongestCallbackSubstring" />
         <item itemvalue="Application.test" />
-        <item itemvalue="Application.Calculator" />
       </list>
     </recent_temporary>
   </component>
@@ -170,6 +170,8 @@
       <workItem from="1610955261562" duration="6737000" />
       <workItem from="1610965210057" duration="2000" />
       <workItem from="1610965240978" duration="7839000" />
+      <workItem from="1611120741527" duration="843000" />
+      <workItem from="1611121597907" duration="3888000" />
     </task>
     <task id="LOCAL-00001" summary="大小写字母转换">
       <created>1583387984353</created>
@@ -219,6 +221,16 @@
           <url>file://$PROJECT_DIR$/src/Calculator.java</url>
           <line>38</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/UniquePaths.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/UniquePaths.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
