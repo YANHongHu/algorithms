@@ -56,14 +56,14 @@ public class LetterStamper {
             // 栈里存在这个元素但是ch不是字符串最后一个
             if(st.contains(ch)){
                 int n = st.search(ch);
-                //在栈里位置大于2，就把这个元素重新压栈
+                //在栈里位置小于2
                 if(n<=2){
                     for (int j=1;j<n;j++){
                         st.pop();
                     }
                     count++;
                 // 如果在栈里的位置大于2
-                }else if(n>2&&){
+                }else if(n>2){
                     count+=3;
                     st.push(ch);
                 }

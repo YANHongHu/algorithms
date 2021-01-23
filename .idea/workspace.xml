@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2f310f4-e560-483e-9bd9-bbcc6ef19a42" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/UniquePathsPro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LetterStamper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LetterStamper.java" afterDir="false" />
     </list>
@@ -55,7 +56,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LetterStamper">
+  <component name="RunManager" selected="Application.UniquePathsPro">
     <configuration name="ClimbStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -92,18 +93,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
+    <configuration name="UniquePathsPro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="UniquePathsPro" />
+      <module name="algorithms" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="true" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="test" />
-      <module name="algorithms" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -123,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UniquePathsPro" />
         <item itemvalue="Application.LetterStamper" />
         <item itemvalue="Application.UniquePaths" />
         <item itemvalue="Application.ClimbStairs" />
         <item itemvalue="Application.LongestCallbackSubstring" />
-        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +183,7 @@
       <workItem from="1610965240978" duration="7839000" />
       <workItem from="1611120741527" duration="843000" />
       <workItem from="1611121597907" duration="4152000" />
-      <workItem from="1611297515724" duration="9307000" />
+      <workItem from="1611297515724" duration="12908000" />
     </task>
     <task id="LOCAL-00001" summary="大小写字母转换">
       <created>1583387984353</created>
@@ -234,9 +235,14 @@
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LetterStamper.java</url>
-          <line>53</line>
-          <option name="timeStamp" value="9" />
+          <url>file://$PROJECT_DIR$/src/UniquePathsPro.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/UniquePathsPro.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
