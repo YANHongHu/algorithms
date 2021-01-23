@@ -32,31 +32,46 @@ public class LetterStamper {
         }
         for (int i = 0; i<n; i++){
             int count = count(strs[i]);
-            System.out.println("Case #"+(i+1)+"："+count);
+            System.out.println("Case #"+(i+1)+": "+count);
         }
     }
 
+    /**
+     * 动态规划：
+     * 可以发现一个字母序列的最小操作数以它的子序列的操作数为基础，经过找规律不难发现
+     * C(n) = C(n-1)+1 / C(n-1)+3
+     * 当第n个字母在之前栈里已经存在时，那么C(n)=C(n-1)+1;如果不存在那么C(n)=C(n-1)+3
+     * 边界值C(1)=3
+     * @param str
+     * @return
+     */
     public static int count(String str){
         int len = str.length();
+        if(len == 0)
+            return 0;
         Stack<Character> st = new Stack<>();
         int count = 0;
         for (int i=0;i<len;i++){
             char ch = str.charAt(i);
-            if(st.contains(ch)&&ch==st.peek()){
-                count++;
-            }else if (!st.contains(ch)){
-                st.push(ch);
-                count+=2;
-            }else if (st.contains(ch)&&ch!=st.peek()){
-                int num = st.search(ch);
-                count+=num;
-                while (num!=1){
-                    st.pop();
-                    num--;
+            // 栈里存在这个元素但是ch不是字符串最后一个
+            if(st.contains(ch)){
+                int n = st.search(ch);
+                //在栈里位置大于2，就把这个元素重新压栈
+                if(n<=2){
+                    for (int j=1;j<n;j++){
+                        st.pop();
+                    }
+                    count++;
+                // 如果在栈里的位置大于2
+                }else if(n>2&&){
+                    count+=3;
+                    st.push(ch);
                 }
+            } else {
+                count+=3;
+                st.push(ch);
             }
         }
-        count+=st.size();
         return count;
     }
 }
