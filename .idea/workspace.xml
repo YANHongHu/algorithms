@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2f310f4-e560-483e-9bd9-bbcc6ef19a42" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ScrambleString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/ScrambleString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/ScrambleString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ScrambleString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ScrambleString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,15 +109,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -182,7 +181,8 @@
       <workItem from="1610965240978" duration="7839000" />
       <workItem from="1611120741527" duration="843000" />
       <workItem from="1611121597907" duration="4152000" />
-      <workItem from="1611297515724" duration="24372000" />
+      <workItem from="1611297515724" duration="24769000" />
+      <workItem from="1611833541700" duration="4128000" />
     </task>
     <task id="LOCAL-00001" summary="大小写字母转换">
       <created>1583387984353</created>
@@ -232,26 +232,6 @@
           <url>file://$PROJECT_DIR$/src/Calculator.java</url>
           <line>38</line>
           <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ScrambleString.java</url>
-          <line>73</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ScrambleString.java</url>
-          <line>75</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ScrambleString.java</url>
-          <line>77</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ScrambleString.java</url>
-          <line>79</line>
-          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
