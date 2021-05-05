@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2f310f4-e560-483e-9bd9-bbcc6ef19a42" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/WildcardMarching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GetWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThePriceOfPerfection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/ScrambleString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/ScrambleString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/WildcardMarching.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/WildcardMarching.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +57,16 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WildcardMarching">
+  <component name="RunManager" selected="Application.GetWater">
+    <configuration name="GetWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="GetWater" />
+      <module name="algorithms" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LetterStamper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -70,15 +80,6 @@
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="ScrambleString" />
-      <module name="algorithms" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UniquePaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="11" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="UniquePaths" />
       <module name="algorithms" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -111,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GetWater" />
         <item itemvalue="Application.WildcardMarching" />
         <item itemvalue="Application.ScrambleString" />
         <item itemvalue="Application.UniquePathsPro" />
         <item itemvalue="Application.LetterStamper" />
-        <item itemvalue="Application.UniquePaths" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +173,12 @@
       <workItem from="1611121597907" duration="4152000" />
       <workItem from="1611297515724" duration="24769000" />
       <workItem from="1611833541700" duration="12235000" />
-      <workItem from="1612344956886" duration="369000" />
+      <workItem from="1612344956886" duration="1021000" />
+      <workItem from="1612521395365" duration="5848000" />
+      <workItem from="1613722704238" duration="96000" />
+      <workItem from="1617976743428" duration="2696000" />
+      <workItem from="1618020434839" duration="245000" />
+      <workItem from="1618560077078" duration="5972000" />
     </task>
     <task id="LOCAL-00001" summary="大小写字母转换">
       <created>1583387984353</created>
@@ -222,16 +228,6 @@
           <url>file://$PROJECT_DIR$/src/Calculator.java</url>
           <line>38</line>
           <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/WildcardMarching.java</url>
-          <line>61</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/WildcardMarching.java</url>
-          <line>62</line>
-          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
